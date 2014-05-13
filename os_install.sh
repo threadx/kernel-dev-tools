@@ -41,3 +41,8 @@ chkconfig php-fpm on
 wget http://packages.sw.be/rpmforge-release/rpmforge-release-0.5.2-2.el5.rf.x86_64.rpm
 rpm -Uhv rpmforge-release*.rf.x86_64.rpm
 yum -y install htop
+
+#
+# SCSI Utils
+#
+yum -y install lsscsi
