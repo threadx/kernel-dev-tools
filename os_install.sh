@@ -46,3 +46,22 @@ yum -y install htop
 # SCSI Utils
 #
 yum -y install lsscsi
+
+#
+# OpenSSL
+#
+yum -y install openssl-devel
+
+#
+# ZeroMQ
+#
+
+wget http://download.zeromq.org/zeromq-4.0.4.tar.gz
+# gunzip zeromq-4.0.4.tar.gz
+# tar xvvf zeromq-4.0.4.tar
+# cd zeromq-4.0.4
+# ./configure
+# make
+# make install
+# ldconfig
+# cd ..
