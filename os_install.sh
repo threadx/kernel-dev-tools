@@ -57,11 +57,11 @@ yum -y install openssl-devel
 #
 
 wget http://download.zeromq.org/zeromq-4.0.4.tar.gz
-# gunzip zeromq-4.0.4.tar.gz
-# tar xvvf zeromq-4.0.4.tar
-# cd zeromq-4.0.4
-# ./configure
-# make
-# make install
-# ldconfig
-# cd ..
+gunzip zeromq-4.0.4.tar.gz
+tar xvvf zeromq-4.0.4.tar
+cd zeromq-4.0.4
+./configure
+make
+make install
+ldconfig
+cd ..
