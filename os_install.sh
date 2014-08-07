@@ -53,6 +53,12 @@ yum -y install lsscsi
 yum -y install openssl-devel
 
 #
+# XML Libs
+#
+
+yum -y install libxml2-devel
+
+#
 # ZeroMQ
 #
 
