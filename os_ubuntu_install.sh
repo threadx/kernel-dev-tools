@@ -40,33 +40,8 @@ sudo apt-get install -y libtool
 sudo apt-get install -y automake
 
 #
-# Install vim to replate vi
+# Install vim to replace vi
 #
 
 sudo apt-get install -y vim
-
-#
-# ZeroMQ
-#
-
-wget http://download.zeromq.org/zeromq-4.0.4.tar.gz
-gunzip zeromq-4.0.4.tar.gz
-tar xvvf zeromq-4.0.4.tar
-cd zeromq-4.0.4
-./configure
-make
-sudo make install
-sudo ldconfig
-cd ..
-
-git clone git://github.com/zeromq/czmq.git
-cd czmq
-sh autogen.sh
-./configure
-make all
-sudo make install
-sudo ldconfig
-cd src
-./czmq_selftest
-cd ../..
 
