@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Kernel development tools install for Ubuntu 14
+# Kernel development tools install for Ubuntu 16
 #
 
 #
@@ -27,7 +27,6 @@ sudo apt-get install -y nfs-common
 sudo apt-get install -y git
 sudo apt-get install -y unzip
 sudo apt-get install -y nginx
-sudo apt-get install -y php5-fpm
 sudo apt-get install -y htop
 sudo apt-get install -y pandoc
 sudo apt-get install -y make
